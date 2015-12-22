@@ -1,0 +1,10 @@
+Bennett pipe organ project.
+The Cramer relationship for speed of sound requires pressure, which was not
+measured as part of the logging.
+The NOAA weather station at the Concord airport logged hourly pressure
+measurements for the dates needed.
+The web interface referenced in the R script produced monthly files, all but
+the first of which were stripped of their header.
+The script outputs a plot that quotes the mean and standard deviation (which
+is less than 1% of the mean) and, since the Cramer equation is not
+particularly sensitive to pressure, these 1% changes are insignificant.
